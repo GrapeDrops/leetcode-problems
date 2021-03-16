@@ -30,3 +30,8 @@ You may assume the two numbers do not contain any leading zero, except the numbe
     0 <= Node.val <= 9
     It is guaranteed that the list represents a number that does not have leading zeros.
 
+<details>
+<summary>Solution approach:</summary>
+Iterate over both linked lists simultaneously until both reach their end, adding along the way and making sure that the carry is accounted for. 
+Dummy node indicates node before head of the answer list.
+</details>
