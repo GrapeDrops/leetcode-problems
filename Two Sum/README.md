@@ -32,3 +32,7 @@ You can return the answer in any order.
     -109 <= target <= 109
     Only one valid answer exists.
 
+<details>
+<summary>Solution approach:</summary>
+Keep seen numbers in a dictionary, so that finding the complement will have constant access time, and just iterate over list to find both indices.
+</details>
