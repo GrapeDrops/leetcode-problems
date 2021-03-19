@@ -2,9 +2,9 @@
 
 The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 
-P   A   H   N  
-A P L S I I G  
-Y   I   R  
+    P   A   H   N  
+    A P L S I I G  
+    Y   I   R  
 
 And then read line by line: "PAHNAPLSIIGYIR"
 
@@ -45,7 +45,8 @@ string convert(string s, int numRows);
 <details>
 <summary>Solution approach:</summary>
 Construct answer string row by row, knowing that:  
-  Characters in row 0 appear in indices i*(2*numRows-2)  
-  Characters in last row appear in indices i*(2*numRows-2)+numRows-1  
-  Characters in middle rows follow the same cycle i*(2*numRows-2)+row, as well as (i+1)*(2*numRows-2)-row
+ 
+      Characters in row 0 appear in indices i*(2*numRows-2)  
+      Characters in last row appear in indices i*(2*numRows-2)+numRows-1  
+      Characters in middle rows follow the same cycle i*(2*numRows-2)+row, as well as (i+1)*(2*numRows-2)-row
 </details>
