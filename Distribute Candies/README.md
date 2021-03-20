@@ -35,3 +35,7 @@ Given the integer array candyType of length n, return the maximum number of diff
     n is even.
     -10^5 <= candyType[i] <= 10^5
 
+<details>
+ <summary>Solution approach</summary>
+ Convert the candy list to a hashset, so we have no duplicates, and just return minimum between the total number of different candies and half of the initial candies.
+</details>
