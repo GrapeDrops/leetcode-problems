@@ -30,7 +30,7 @@ Assume the environment does not allow you to store 64-bit integers (signed or un
 
 ### Constraints:
 
-    -231 <= x <= 231 - 1
+    -2^31 <= x <= 2^31 - 1
 
 <details>
 <summary>Solution approach:</summary>
