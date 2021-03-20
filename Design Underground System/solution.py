@@ -10,13 +10,13 @@ class UndergroundSystem:
 
     def checkOut(self, id: int, stationName: str, t: int) -> None:
         try:
-            start_station, start_time = self.checkedIn.pop(id)
-            if start_station not in self.times:
-                self.times[start_station] = {}
-            if stationName not in self.times[start_station]:
-                self.times[start_station][stationName] = [0,0]
-            self.times[start_station][stationName][0] += t - start_time
-            self.times[start_station][stationName][1] += 1
+            startStation, startTime = self.checkedIn.pop(id)
+            if startStation not in self.times:
+                self.times[startStation] = {}
+            if stationName not in self.times[startStation]:
+                self.times[startStation][stationName] = [0,0]
+            self.times[startStation][stationName][0] += t - startTime
+            self.times[startStation][stationName][1] += 1
         except KeyError:
             print(f'ID {id} is not checked in!')
 
