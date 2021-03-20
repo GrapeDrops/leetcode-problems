@@ -66,7 +66,7 @@ You can assume all calls to checkIn and checkOut methods are consistent. If a cu
 ### Constraints:
 
     There will be at most 20000 operations.
-    1 <= id, t <= 106
+    1 <= id, t <= 10^6
     All strings consist of uppercase and lowercase English letters, and digits.
     1 <= stationName.length <= 10
     Answers within 10^-5 of the actual value will be accepted as correct.
