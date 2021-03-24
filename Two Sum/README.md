@@ -27,9 +27,9 @@ You can return the answer in any order.
 
 ### Constraints:
 
-    2 <= nums.length <= 10^3
-    -10^9 <= nums[i] <= 10^9
-    -10^9 <= target <= 10^9
+  2 <= nums.length <= 10<sup>3</sup>  
+    -10<sup>9</sup> <= nums[i] <= 10<sup>9</sup>  
+    -10<sup>9</sup> <= target <= 10<sup>9</sup>  
     Only one valid answer exists.
 
 <details>
