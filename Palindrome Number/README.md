@@ -30,7 +30,7 @@ An integer is a palindrome when it reads the same backward as forward. For examp
 
  
 
-Constraints:
+### Constraints:
 
 -2<sup>31</sup> <= x <= 2<sup>31</sup> - 1
 
