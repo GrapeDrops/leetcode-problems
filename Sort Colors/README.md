@@ -30,8 +30,8 @@ We will use the integers 0, 1, and 2 to represent the color red, white, and blue
 
 ### Constraints:
 
-    n == nums.length
-    1 <= n <= 300
+  n == nums.length  
+    1 <= n <= 300  
     nums[i] is 0, 1, or 2.
 
 <details>
