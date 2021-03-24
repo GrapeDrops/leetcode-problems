@@ -32,7 +32,7 @@ Given a string s, find the length of the longest substring without repeating cha
 
 ### Constraints:
 
-  0 <= s.length <= 5 * 10<sup>4</sup> 
+  0 <= s.length <= 5 * 10<sup>4</sup>   
     s consists of English letters, digits, symbols and spaces.
 
 <details>
