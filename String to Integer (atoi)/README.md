@@ -92,7 +92,7 @@ Implement the myAtoi(string s) function, which converts a string to a 32-bit sig
 
 ### Constraints:
 
-    0 <= s.length <= 200  
+  0 <= s.length <= 200    
     s consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+', '-', and '.'.
     
 <details>
