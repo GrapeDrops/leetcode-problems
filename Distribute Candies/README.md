@@ -30,10 +30,10 @@ Given the integer array candyType of length n, return the maximum number of diff
 
 ### Constraints:
 
-    n == candyType.length
-    2 <= n <= 10^4
-    n is even.
-    -10^5 <= candyType[i] <= 10^5
+   n == candyType.length  
+    2 <= n <= 10<sup>4</sup>  
+    n is even.  
+    -10<sup>5</sup> <= candyType[i] <= 10<sup>5</sup>
 
 <details>
  <summary>Solution approach</summary>
